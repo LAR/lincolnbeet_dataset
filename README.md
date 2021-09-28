@@ -1,5 +1,6 @@
 # lincolnbeet_dataset
 ![](images/example.png)
+
 The lincolnbeet dataset is an object detection dataset designed to encourage research in the identification of items in environments with high levels of occlusion, and in the development of better approaches to evaluate object detection models in practical scenarios. This dataset was introduced in the paper:
 
 ***"Self-supervised Representation Learning for Reliable Robotic Monitoring of Fruit Anomalies"***. Adrian Salazar-Gomez, Madeleine Darbyshire, Junfeng Gao, Elizabeth I Sklar, and Simon Parsons. 
