@@ -51,7 +51,7 @@ all_field_lincolnbeet                             #Dataset folder.
 
 
 # Characteristics of the dataset 
-The lincolnbeet beet dataset is . Below, you can find a summary of the overal characteristics of the dataset.
+Below, you can find a summary of the overal characteristics of the dataset.
 |  dataset characteristics |  Lincolnbeet | 
 |---------------- | ------|
 | **Number of images** | 4402 | 
@@ -61,7 +61,7 @@ The lincolnbeet beet dataset is . Below, you can find a summary of the overal ch
 
 
 
-And the characteristics of the items present in the dataset are:
+In addition, we provide the characteristics of each of the classes within the dataset.
 
 
 |                 |  Sugar beet  | weed plants |
@@ -70,10 +70,6 @@ And the characteristics of the items present in the dataset are:
 | **Average area occluded in the bounding boxes **| 0.0324 | 0.001  | 
 | **Average image area occupied by item bounding box **| 0.033 | 0.002  | 
  
-
-Here is the basic statistics of the images included in Riseholme-2021, where WxH denotes the width x height of image. 
-The severe *class imbalance* between normal and anomalous samples (95.7% vs 4.3%) simulates the *rare* occurrence of anomalous observation in realistic detection tasks. 
-
 
 # Contact
 If there is any questions about the dataset, please do not hesitate to drop an email to asalazargomez@lincoln.ac.uk.
