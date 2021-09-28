@@ -32,18 +32,17 @@ all_field_lincolnbeet                             #Dataset folder.
 │
 └───all                                          #Folder that contains the dataset images and the xml and darknet labels
 │
-|   └───.png
-│   └───.txt files                              #Folder that contains the code to train and test the faster R CNN
-|   └───.xml files                                 #This folder contains tools to train density-based models.
-|       |   creation_density_maps.py              #Code to create the ground truth density maps.
+|   └───.png files                                #Dataset images
+│   └───.txt files                                #Object detection labels in darknet format.
+|   └───.xml files                                #Object detection labels in xmlVOC format.
 |
-└───all_fields_lincolnbeet_test_.json             #Folder where we save the datasets.
-└───all_fields_lincolnbeet_train_.json            #Folder where we save the datasets.
-└───all_fields_lincolnbeet_val_.json              #Folder where we save the datasets.
-└───all_fields_lincolnbeet_test_.txt              #Folder where we save the datasets.
-└───all_fields_lincolnbeet_train_.txt             #Folder where we save the datasets.
-└───all_fields_lincolnbeet_val_.txt               #Folder where we save the datasets.
-└───all_fields_lincolnbeet.json                   #Folder where we save the datasets.
+└───all_fields_lincolnbeet_test_.json             #List, in json format, of all the images used for testing in the dataset paper.
+└───all_fields_lincolnbeet_train_.json            #List, in json format, of all the images used for training in the dataset paper.
+└───all_fields_lincolnbeet_val_.json              #List, in json format, of all the images used for validation in the dataset paper.
+└───all_fields_lincolnbeet_test_.txt              #List, in txt format, of all the images used for testing in the dataset paper.
+└───all_fields_lincolnbeet_train_.txt             #List, in txt format, of all the images used for training in the dataset paper
+└───all_fields_lincolnbeet_val_.txt               #List, in txt format, of all the images used for validation in the dataset paper
+└───all_fields_lincolnbeet.json                   #Object detection labels in COCOJSON format
 └───json_test_set.json                            #Folder where we save the datasets.
 └───json_test_set.json                            #Folder where we save the datasets.
 └───json_test_set.json                            #Folder where we save the datasets.
