@@ -7,7 +7,7 @@ You can find the paper on [[arXiv]](https://arxiv.org/abs/2109.11048). Currently
 
 
 # Download link and dataset reference
-The dataset contains 4402 images that contain weed plants and sugar beets which are located with object detection labels. The labels included in the dataset are in COCOjson, XML, and darknets formats. To download the dataset, please click on the following link.
+The dataset contains 4402 images that contain weed plants and sugar beets which are located with object detection labels. The image size is 1920 x 1080 pixels, and the labels included in the dataset are in COCOjson, XML, and darknets formats. To download the dataset, please click on the following link.
 
 https://www.dropbox.com/s/0rq7cc8t6rja632/all_fields_lincolnbeet.zip?dl=0
 
@@ -23,7 +23,32 @@ If you are using the dataset, please do not forget to cite it using the followin
 ```
 
 # How to use the dataset and dataset structure.
-Once you have the .zip file that you got from the [[DATASET LINK]](https://www.dropbox.com/s/0rq7cc8t6rja632/all_fields_lincolnbeet.zip?dl=0)
+Once you have the .zip file that you got from the [[DATASET LINK]](https://www.dropbox.com/s/0rq7cc8t6rja632/all_fields_lincolnbeet.zip?dl=0), unzip the zip file to get a folder called "all_fields_lincolnbeet". The structure of the folder is as follows:
+
+
+```
+
+all_field_lincolnbeet                             #Dataset folder.
+│
+└───all                                          #Folder that contains the dataset images and the xml and darknet labels
+│
+|   └───.png
+│   └───.txt files                              #Folder that contains the code to train and test the faster R CNN
+|   └───.xml files                                 #This folder contains tools to train density-based models.
+|       |   creation_density_maps.py              #Code to create the ground truth density maps.
+|
+└───all_fields_lincolnbeet_test_.json             #Folder where we save the datasets.
+└───all_fields_lincolnbeet_train_.json            #Folder where we save the datasets.
+└───all_fields_lincolnbeet_val_.json              #Folder where we save the datasets.
+└───all_fields_lincolnbeet_test_.txt              #Folder where we save the datasets.
+└───all_fields_lincolnbeet_train_.txt             #Folder where we save the datasets.
+└───all_fields_lincolnbeet_val_.txt               #Folder where we save the datasets.
+└───all_fields_lincolnbeet.json                   #Folder where we save the datasets.
+└───json_test_set.json                            #Folder where we save the datasets.
+└───json_test_set.json                            #Folder where we save the datasets.
+└───json_test_set.json                            #Folder where we save the datasets.
+
+```
 
 
 # Characteristics of the dataset 
