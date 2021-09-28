@@ -52,10 +52,10 @@ all_field_lincolnbeet                             #Dataset folder.
 
 # Characteristics of the dataset 
 The lincolnbeet beet dataset is . Below, you can find a summary of the overal characteristics of the dataset.
-|                 |  Lincolnbeet | 
+|  dataset characteristics |  Lincolnbeet | 
 |---------------- | ------|
-| **# of images** | 4402 | 
-| **# of items**  | 100%  | 
+| **Number of images** | 4402 | 
+| **Number of items**  | 39246  | 
 | **Average percentage of the bounding box that is occluded** | 0.0176|
 |**Average area of the imageoccupied by bounding boxes**    | 0.0717|
 
@@ -64,12 +64,12 @@ The lincolnbeet beet dataset is . Below, you can find a summary of the overal ch
 And the characteristics of the items present in the dataset are:
 
 
-|                 |  All items  |  Sugar beet  | weed |
+|                 |  Sugar beet  | weed plants |
 |---------------- | ------|-------|--------|
-| **# of images** | 3,520 | 462   | 2,406  | 
-| **Percentage**  | 100%  | 13.1% | 68.4%  | 
-| **Avg. WxH**    | 63x66 | 75x81 | 59x61  | 
-| **Std. WxH**    | 18x23 | 18x22 | 17x22  |
+| **Number of items** | 16399   | 22847  | 
+| **Average area occluded in the bounding boxes **| 0.0324 | 0.001  | 
+| **Average image area occupied by item bounding box **| 0.033 | 0.002  | 
+ 
 
 Here is the basic statistics of the images included in Riseholme-2021, where WxH denotes the width x height of image. 
 The severe *class imbalance* between normal and anomalous samples (95.7% vs 4.3%) simulates the *rare* occurrence of anomalous observation in realistic detection tasks. 
