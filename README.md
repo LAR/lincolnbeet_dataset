@@ -65,7 +65,6 @@ And the characteristics of the items present in the dataset are:
 
 
 |                 |  Sugar beet  | weed plants |
-|---------------- | ------|-------|--------|
 | **Number of items** | 16399   | 22847  | 
 | **Average area occluded in the bounding boxes **| 0.0324 | 0.001  | 
 | **Average image area occupied by item bounding box **| 0.033 | 0.002  | 
