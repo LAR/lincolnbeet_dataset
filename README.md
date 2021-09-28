@@ -56,11 +56,8 @@ The lincolnbeet beet dataset is . Below, you can find a summary of the overal ch
 |---------------- | ------|
 | **# of images** | 4402 | 
 | **# of items**  | 100%  | 
-| **Average percentage of the
-bounding box
-that is occluded**           | 0.0176
-| **Average area of the image
-occupied by bounding boxes**    | 0.0717|
+| **Average percentage of the bounding box that is occluded** | 0.0176|
+|**Average area of the imageoccupied by bounding boxes**    | 0.0717|
 
 
 
