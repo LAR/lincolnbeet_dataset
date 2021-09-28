@@ -43,22 +43,24 @@ all_field_lincolnbeet                             #Dataset folder.
 └───all_fields_lincolnbeet_train_.txt             #List, in txt format, of all the images used for training in the dataset paper
 └───all_fields_lincolnbeet_val_.txt               #List, in txt format, of all the images used for validation in the dataset paper
 └───all_fields_lincolnbeet.json                   #Object detection labels in COCOJSON format
-└───json_test_set.json                            #Folder where we save the datasets.
-└───json_test_set.json                            #Folder where we save the datasets.
-└───json_test_set.json                            #Folder where we save the datasets.
+└───json_test_set.json                            #Object detection labels for the testing set in COCOJSON format.
+└───json_train_set.json                           #Object detection labels for the training set in COCOJSON format.
+└───json_val_set.json                             #Object detection labels for the validation set in COCOJSON format.
 
 ```
 
 
 # Characteristics of the dataset 
-The lincolnbeet beet dataset is . The challenge
-
+The lincolnbeet beet dataset is . Below, you can find a summary of the overal characteristics of the dataset.
 |                 |  Lincolnbeet | 
 |---------------- | ------|
-| **# of images** | 3,520 | 
-| **Percentage**  | 100%  | 
-| **Avg. WxH**    | 63x66 | 
-| **Std. WxH**    | 18x23 |
+| **# of images** | 4402 | 
+| **# of items**  | 100%  | 
+| **Average percentage of the
+bounding box
+that is occluded**           | 0.0176
+| **Average area of the image
+occupied by bounding boxes**    | 0.0717|
 
 
 
