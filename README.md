@@ -22,5 +22,35 @@ If you are using the dataset, please do not forget to cite it using the followin
 }
 ```
 
+# How to use the dataset and dataset structure.
+Once you have the .zip file that you got from the [[DATASET LINK]](https://www.dropbox.com/s/0rq7cc8t6rja632/all_fields_lincolnbeet.zip?dl=0)
+
+
+# Characteristics of the dataset 
+The lincolnbeet beet dataset is . The challenge
+
+|                 |  Lincolnbeet | 
+|---------------- | ------|
+| **# of images** | 3,520 | 
+| **Percentage**  | 100%  | 
+| **Avg. WxH**    | 63x66 | 
+| **Std. WxH**    | 18x23 |
+
+
+
+And the characteristics of the items present in the dataset are:
+
+
+|                 |  All items  |  Sugar beet  | weed |
+|---------------- | ------|-------|--------|
+| **# of images** | 3,520 | 462   | 2,406  | 
+| **Percentage**  | 100%  | 13.1% | 68.4%  | 
+| **Avg. WxH**    | 63x66 | 75x81 | 59x61  | 
+| **Std. WxH**    | 18x23 | 18x22 | 17x22  |
+
+Here is the basic statistics of the images included in Riseholme-2021, where WxH denotes the width x height of image. 
+The severe *class imbalance* between normal and anomalous samples (95.7% vs 4.3%) simulates the *rare* occurrence of anomalous observation in realistic detection tasks. 
+
+
 # Contact
 If there is any questions about the dataset, please do not hesitate to drop an email to asalazargomez@lincoln.ac.uk.
